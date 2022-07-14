@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');    
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navi {
+    position:sticky;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background-color: #A78BFA;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;    
+    font-size: 20px;
+    color: #fff;
+    font-weight: 1000
+    text-align:center;
+
+    position:absolute;
+    top: 36px;
+    left: 143px;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+    
+
+.one {
+    position: absolute;
+    top: 130px;
+    left: 136px;
+}
+
+.photo {
+    width: 927px;
+    height: 331px;
+    margin-top: 24px;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    text-align: justify;
+    padding: 0;
+}
+
+.us {
+    text-transform: capitalize;
+    color: #854D0E;
+    font-weight: 800;
+}
+
+.two {
+    position: absolute;
+    width: 1200px;
+    height: 261px;
+    left: 0px;
+    top: 599px;
+    
+    background: #FFE5D9;}
+
+.pharagraph {
+    position: absolute;
+    left: 136px;
+    
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top : 20px;
+
+}
+.last{
+    line-height: 24px;
+
+}
+
+.take-part {
+    padding: 6px 37px;
+    border: none;
+    background-color: #FF6820;
+
+}
+
+.take-part:hover {
+    background-color:#c9bbb5;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.more {
+    padding: 6px 37px;
+    border: none;
+}
+
+
+.buttons {
+    display: flex;
+    position: absolute;
+    left: 136px;
+    top: 150px;
+    gap: 20px;
+    
+}
+
+footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 73px;
+            background-color: #A78BFA;
+            font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.last-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+}
+
+.contact:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.about:hover {
+    color: yellow;
+
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+
+
+
+
+
+        
